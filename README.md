@@ -7,7 +7,7 @@ This repository contains the source code for a skin condition analysis applicati
 
 - `model_full.pth`: The exported PyTorch model file containing the trained Vision Transformer model, ready for inference.
 - `Skin_Condition_Analysis.ipynb`: Jupyter notebook detailing the process of training, validating, and testing the model on skin condition images.
-- `skin_app.py`: Python script for the GUI application that uses the trained model to perform predictions and display skincare product recommendations.
+- `glowbot.py`: Python script for the GUI application that uses the trained model to perform predictions and display skincare product recommendations.
 
 ## How to Run the Application
 
@@ -36,7 +36,7 @@ To build an executable from the Python script using PyInstaller, follow these st
 2. Navigate to the directory containing skin_app.py.
 3. Run PyInstaller to create the executable:
     ```bash
-    pyinstaller --onefile --windowed skin_app.py
+    pyinstaller --onefile --windowed glowbot.py
 4. Once the build process is complete, find the executable in the dist directory.
 5. Run the executable directly by double-clicking on it in the dist directory. Ensure model_full.pth is in the same directory as the executable for it to function correctly.
 
