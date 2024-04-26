@@ -5,7 +5,7 @@ This repository contains the source code for a skin condition analysis applicati
 
 ## Repository Contents
 
-- `model_full.pth`: The exported PyTorch model file containing the trained Vision Transformer model, ready for inference.
+- `full_model.pth`: The exported PyTorch model file containing the trained Vision Transformer model, ready for inference.
 - `Glowbot(1).ipynb`: Jupyter notebook detailing the process of training, validating, and testing the model on skin condition images.
 - `glowbot.py`: Python script for the GUI application that uses the trained model to perform predictions and display skincare product recommendations.
 
@@ -19,7 +19,7 @@ To run the application directly from the Python script, follow these steps:
 2. Install required dependencies:
    ```bash
    pip install torch torchvision pillow tkinter
-3. Place the model_full.pth file in the same directory as the glowbot.py script.
+3. Place the full_model.pth file in the same directory as the glowbot.py script.
 4. Run the script:
      ```bash
    python glowbot.py
@@ -38,7 +38,7 @@ To build an executable from the Python script using PyInstaller, follow these st
     ```bash
     pyinstaller --onefile --windowed glowbot.py
 4. Once the build process is complete, find the executable in the dist directory.
-5. Run the executable directly by double-clicking on it in the dist directory. Ensure model_full.pth is in the same directory as the executable for it to function correctly.
+5. Run the executable directly by double-clicking on it in the dist directory. Ensure full_model.pth is in the same directory as the executable for it to function correctly.
 
 ## Notes
 - The application has been tested on Windows 10 and macOS, but should be compatible with any operating system that supports Python and the required libraries.
