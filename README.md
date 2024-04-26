@@ -4,14 +4,14 @@
 This repository contains the source code for a skin condition analysis application, built using PyTorch and Tkinter. The application provides a user-friendly GUI where users can upload images of skin conditions, and the model predicts whether the condition is related to bags, redness, or acne. Based on the prediction, the application recommends specific skincare products tailored to treat the identified condition, leveraging a trained Vision Transformer model for accurate predictions.
 
 ## Repository Contents
-
-- `full_model.pth`: The exported PyTorch model file containing the trained Vision Transformer model, ready for inference.
 - `Glowbot(1).ipynb`: Jupyter notebook detailing the process of training, validating, and testing the model on skin condition images.
 - `glowbot.py`: Python script for the GUI application that uses the trained model to perform predictions and display skincare product recommendations.
 
 ## How to Run the Application
 
 ### Running the Python Script Directly
+
+First step is always to run the `glowbot(1).ipynb` file and export the model, the file name will be - `full_model.pth`
 
 To run the application directly from the Python script, follow these steps:
 
