@@ -9,9 +9,9 @@ This repository contains the source code for a skin condition analysis applicati
 
 ## How to Run the Application
 
-### Running the Python Script Directly
-
 First step is always to run the `glowbot(1).ipynb` file and export the model, the file name will be - `full_model.pth`
+
+### Running the Python Script Directly
 
 To run the application directly from the Python script, follow these steps:
 
