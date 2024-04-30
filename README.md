@@ -6,6 +6,7 @@ This repository contains the source code for a skin condition analysis applicati
 ## Repository Contents
 - `Glowbot(1).ipynb`: Jupyter notebook detailing the process of training, validating, and testing the model on skin condition images.
 - `glowbot.py`: Python script for the GUI application that uses the trained model to perform predictions and display skincare product recommendations.
+- `vision_transformer_architecture.png`: Visual representation of the model architecture
 
 ## How to Run the Application
 
